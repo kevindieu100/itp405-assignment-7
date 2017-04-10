@@ -16,10 +16,7 @@ app.get('/api/v1/books/:id', function(request, response){
   book.findRecord(request.params.id).then(function(books){
     response.json(books);
   }, function(error){
-    // response.writeHead(404, {"Content-Type": "json"});
-    // response.write(error);
-    // response.end();
-    response.status('error').json(error);
+    response.status(404).json(error);
   });
 });
 
