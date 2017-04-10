@@ -1,0 +1,19 @@
+{
+  "name": "itp405-assignment-7",
+  "version": "1.0.0",
+  "description": "ITP405 Assignment #6: Promise to Build Me a REST API - PT 1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindieu100/itp405-assignment-7.git"
+  },
+  "author": "Kevin Dieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindieu100/itp405-assignment-7/issues"
+  },
+  "homepage": "https://github.com/kevindieu100/itp405-assignment-7#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mysql": "^2.13.0"
+  }
+}
